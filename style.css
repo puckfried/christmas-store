@@ -1,0 +1,79 @@
+body {
+    /* switch of the default margin from the browser */
+    margin: 0;
+    background-image: url("images/bg-pattern.jpg");
+    
+    /* Background stays and foreground moves */
+    background-attachment: fixed;
+}
+
+
+/* ******  UPPER PART OF WEBSITE (HEADER) ***** */
+
+/* Box at the top of the page */
+header {
+    background-color: #A31621;
+    text-align: center; /*centering the text within the box */
+}
+
+h1 {
+    color: white;
+    font-size: 90px;
+    font-family: "Corinthia", serif;
+
+    margin: 0;
+}
+
+/* **** CONTAINER WITH SLEIGH (hero) ****** */
+div.hero {
+    background-image: url("images/sleigh-bg.webp");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    padding: 100px;
+}
+
+div.hero h2 {
+    color: white;
+    background-color: #a31622a4;
+    font-size: 56px;
+    font-family: "Rubik Moonrocks", serif;
+
+}
+
+
+
+/* **** PART WITH BOXES ****** */
+
+main h2 {
+    text-align: center;
+    font-size: 50px;
+    color: #A31621;
+    margin-top: 100px;
+}
+
+div.card {
+    background-color: rgba(240, 255, 255, 0.753);
+    width: 500px ;
+
+    padding: 30px; /*creates space between the border of the box and its content */
+    margin-bottom: 30px;
+
+    /* For centering the box */
+    margin-left: auto;
+    margin-right: auto;
+
+    /*create rounded corners */
+    border-radius: 30px; 
+
+    /* creates a modern looking boxshadow, copy the code */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+    text-align: center;
+}
+
+/* Selects the <img> inside the <div class="card"> */
+div.card img {
+    width: 500px;
+    border-radius: 30px;
+}
